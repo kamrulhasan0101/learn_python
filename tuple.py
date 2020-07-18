@@ -12,11 +12,15 @@ listFruits = list(fruits)
 listFruits[0] = "changed"
 # this is a list
 print(listFruits)
-Fruits = tuple(listFruits)
+print(type(listFruits))
+fruits = tuple(listFruits)
 # this is a tuple
-print(Fruits)
+print(fruits)
+print(type(fruits))
+print("changed" in fruits)
 tuple1 = tuple(("a", "b", "c"))
 tuple2 = (1, 2, 3)
 tuple3 = tuple1 + tuple2
 print(tuple3)
+print(tuple3) # generates a error because of deleting tuple3
 
