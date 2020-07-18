@@ -22,4 +22,3 @@ print(newFruits)
 pinkyList = ["apple", "mango", "orange", "dragon"]
 mergelist = fruitList+pinkyList
 print(mergelist)
-
